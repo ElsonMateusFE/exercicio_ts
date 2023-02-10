@@ -4,6 +4,6 @@ function multiplicaoDoiValores(valor1: number, valor2: number): number{
 }
 
 // Função de Saudação
-function saudacao(nome: string): void{
-    console.log(`Olá ${nome}`)
+function saudacao(nome: string): string{
+    return `Olá ${nome}`
 }
